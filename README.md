@@ -1,10 +1,5 @@
-Prilikom analize podataka primecen clanak
-Title: 'Introduction to Molecular genetic diagnostics'  - Tatjana Pekmezovic
-
-Koji ima grupu autora malko drugaciju -  Zarkovic M. i  Zarkovc M.
-
-Document Type drugaciji
----------------------------------------
-
- Onychomycosis: Clinical findings, etiological
- Autor: Dzamic i Dzamic A.M.
+- Analiza socijalnih mreza (predmet sa master studija na softgverskom inzenjerstvu)
+- Tema: "Pregled naucne kolaboracije na Medicinskom fakultetu, Univerziteta u Beogradu"
+- Sredjivanje data seta
+- Primena pandas i networkX u Pythony
+- Obrada podataka kroz alat Gephy
