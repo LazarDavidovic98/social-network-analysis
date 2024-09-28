@@ -1,4 +1,4 @@
-- Analiza socijalnih mreza (predmet sa master studija na softgverskom inzenjerstvu)
+- Analiza socijalnih mreza
 - Tema: "Pregled naucne kolaboracije na Medicinskom fakultetu, Univerziteta u Beogradu"
 - Sredjivanje data seta
 - Primena pandas i networkX u Pythony
