@@ -1,45 +1,46 @@
-# 📊 Socijalna Mreža Naučne Kolaboracije - Medicinski Fakultet UB
+# 📊 Scientific Collaboration Network – Faculty of Medicine, University of Belgrade
 
-Ovaj projekat predstavlja sveobuhvatnu analizu naučne produkcije i kolaboracije među zaposlenima na četiri katedre Medicinskog fakulteta Univerziteta u Beogradu: **Imunologija, Epidemiologija, Infektivne bolesti i Mikrobiologija**. Projekat je realizovan u okviru predmeta *Analiza socijalnih mreža* na Elektrotehničkom fakultetu u Beogradu.
+This project presents a comprehensive analysis of scientific output and collaboration among staff members from four departments of the Faculty of Medicine, University of Belgrade: **Immunology, Epidemiology, Infectious Diseases, and Microbiology**. The project was completed as part of the *Social Network Analysis* course at the School of Electrical Engineering, University of Belgrade.
 
-Cilj analize je modelovanje i analiza **mreža koautora** i **mreža naučnih časopisa** kroz metrike mrežnog grafa, centralnosti, detekciju komuna i vizualizaciju, koristeći realne podatke prikupljene iz **Scopus baze** i fakultetskih izvora.
+The goal of the analysis is to model and analyze **co-authorship networks** and **journal networks** through graph metrics, centrality measures, community detection, and visualization, using real-world data collected from the **Scopus database** and institutional sources.
 
-## Opis projekta
+## Project Overview
 
-Projekat uključuje sledeće korake:
-- Prečišćavanje i spajanje sirovih podataka iz više Excel fajlova (`epidemiologija.xlsx`, `imunologija.xlsx`, itd.)
-- Filtriranje autora na osnovu liste zvaničnih zaposlenih (`autori.xlsx`)
-- Konstrukcija grafa koautora i grafa časopisa pomoću `NetworkX`
-- Analiza centralnosti (stepen, bliskost, sopstveni vektor, betweenness)
-- Detekcija komuna (Louvain metod, spektralno klasterisanje)
-- Upoređivanje sa slučajnim mrežama i merenje karakteristika kao što su gustina, klasterizacija, asortativnost, itd.
-- Vizuelizacija mreža i interpretacija rezultata
+The project includes the following steps:
+- Cleaning and merging raw data from multiple Excel files (`epidemiologija.xlsx`, `imunologija.xlsx`, etc.)
+- Filtering authors based on the official staff list (`autori.xlsx`)
+- Constructing co-authorship and journal graphs using `NetworkX`
+- Analyzing centrality (degree, closeness, eigenvector, betweenness)
+- Community detection (Louvain method, spectral clustering)
+- Comparing with random networks and measuring characteristics such as density, clustering, assortativity, etc.
+- Visualizing networks and interpreting the results
 
-## Korišćene tehnologije
+## Technologies Used
 
 - `Python` (v3.9+)
-- `pandas` – za rad sa tabelama
-- `networkX` – za modelovanje i analizu mreža
-- `matplotlib` / `graphviz` – za vizuelizaciju
-- `Gephi` – za naprednu vizuelnu analizu i Louvain detekciju komuna
+- `pandas` – for data manipulation
+- `networkX` – for network modeling and analysis
+- `matplotlib` / `graphviz` – for visualization
+- `Gephi` – for advanced visual analysis and Louvain community detection
 
-## Ključne analize
+## Key Analyses
 
-- Broj radova po autoru (celovito i frakciono brojanje)
-- H-indeks autora
-- Distribucija po godinama i časopisima
-- Mrežne metrike: klasterizacija, centralnost, asortativnost, dijametar
-- Detekcija ključnih pojedinaca i komuna u naučnoj mreži
+- Number of publications per author (full and fractional counting)
+- Author H-index
+- Distribution by years and journals
+- Network metrics: clustering, centrality, assortativity, diameter
+- Detection of key individuals and communities within the scientific network
 
-## Cilj
+## Objective
 
-Pomoću alata iz oblasti analize socijalnih mreža, identifikovati:
-- najvažnije naučne aktere,
-- nivo kolaboracije među autorima i između katedri,
-- strukturalne obrasce naučne produkcije,
-- potencijalne preporuke za povezivanje izolovanih grupa ili autora.
+Using social network analysis tools, the aim is to identify:
+- the most influential scientific actors,
+- the level of collaboration among authors and across departments,
+- structural patterns of scientific production,
+- potential recommendations for connecting isolated groups or individuals.
 
 ---
-**Detaljna dokumentacija dostupna je ovde**: [Documentation](docs/Documentation.md)
 
-**Mozete pogledati i prezentaciju projekta**: [Presentation](docs/Presentation.pdf)
+**Detailed documentation is available here**: [Documentation](docs/Documentation.md)
+
+**You can also view the project presentation**: [Presentation](docs/Presentation.pdf)
