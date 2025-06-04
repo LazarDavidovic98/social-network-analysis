@@ -7,16 +7,16 @@ This documentation covers all technical and analytical aspects of the project de
 ## Dataset
 
 **Files used:**
-- `autori.xlsx` – list of relevant authors (department employees)
-- `epidemiologija.xlsx`, `imunologija.xlsx`, `infektivne_bolesti.xlsx`, `mikrobiologija.xlsx` – raw publication data requiring preprocessing
-- `mreza_casopisa.gml` – journal network graph
+- `authors.xlsx` – list of relevant authors (department employees)
+- `epidemiology.xlsx`, `immunology.xlsx`, `infectious_diseases.xlsx`, `microbiology.xlsx` – raw publication data requiring preprocessing
+- `journal-networks.gml` – journal network graph
 
 **Columns in the .xlsx files:**
 - `Author`, `Authors`, `Title`, `Year`, `Source title`, `Volume`, `Issue`, `Art. No.`, `Page start`, `Page end`, `Page count`, `Cited by`, `Link`, `Document Type`, `Source`
 
 **Filtering criteria:**
 - Only the following types of documents were included: Article, Article in Press, Review, Book Chapter, Letter, Note
-- Only authors from `autori.xlsx` were included
+- Only authors from `authors.xlsx` were included
 
 ---
 
@@ -40,7 +40,7 @@ This documentation covers all technical and analytical aspects of the project de
 
 ### Network Modeling
 - Construction of an undirected weighted co-authorship network
-- Construction of the journal network from the `mreza_casopisa.gml` file
+- Construction of the journal network from the `journal-networks.gml` file
 
 ### Network Metrics
 - Network density

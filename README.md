@@ -7,8 +7,8 @@ The goal of the analysis is to model and analyze **co-authorship networks** and 
 ## Project Overview
 
 The project includes the following steps:
-- Cleaning and merging raw data from multiple Excel files (`epidemiologija.xlsx`, `imunologija.xlsx`, etc.)
-- Filtering authors based on the official staff list (`autori.xlsx`)
+- Cleaning and merging raw data from multiple Excel files (`epidemiology.xlsx`, `immunology.xlsx`, etc.)
+- Filtering authors based on the official staff list (`authors.xlsx`)
 - Constructing co-authorship and journal graphs using `NetworkX`
 - Analyzing centrality (degree, closeness, eigenvector, betweenness)
 - Community detection (Louvain method, spectral clustering)
