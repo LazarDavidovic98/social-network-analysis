@@ -15,6 +15,21 @@ The project includes the following steps:
 - Comparing with random networks and measuring characteristics such as density, clustering, assortativity, etc.
 - Visualizing networks and interpreting the results
 
+## Project Structure
+
+<pre style="font-size: 14px; line-height: 1.4;">
+├── <span style="color:#2aa198;">data/                           </span> # Raw data files (e.g., CSV, JSON)
+├── <span style="color:#2aa198;">docs/                           </span> # Project documentation
+├── <span style="color:#2aa198;">images/                         </span> # Visualizations and plots
+├── <span style="color:#2aa198;">magazine/                       </span> # Additional materials or articles
+├── <span style="color:#2aa198;">models/                         </span> # Graph models and processed data
+├── <span style="color:#2aa198;">.gitignore                      </span> # Git ignore rules
+├── <span style="color:#2aa198;">README.md                       </span> # Project overview and instructions
+├── <span style="color:#2aa198;">co-authorship-networks.ipynb    </span> # Jupyter notebook for co-authorship analysis
+└── <span style="color:#2aa198;">journal-networks.ipynb          </span> # Jupyter notebook for journal network analysis
+</pre>
+
+
 ## Technologies Used
 
 - `Python` (v3.9+)
